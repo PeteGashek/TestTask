@@ -4,7 +4,9 @@ import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
 
-public class WordsInFileUtil {
+public final class WordsInFileUtil {
+	
+	private WordsInFileUtil (){}
 
 	public static Map<String, Integer> getWords(String nameOfFile) // Method to get
 															// words from file
