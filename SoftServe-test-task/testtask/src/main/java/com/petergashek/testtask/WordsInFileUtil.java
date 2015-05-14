@@ -80,7 +80,7 @@ public final class WordsInFileUtil
       {
          public int compare( Map.Entry<String, Integer> occurence, Map.Entry<String, Integer> nextOccurence )
          {
-            return (nextOccurence.getValue()).compareTo(occurence.getValue());// if we switch places of occurrences we get acceding or decceding output
+            return (nextOccurence.getValue()).compareTo(occurence.getValue());// if we switch places of occurrences we get ascending or descending output
          }
       });
       return resulsList;
